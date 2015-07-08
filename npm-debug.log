@@ -1,0 +1,196 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'mogoose',
+1 verbose cli   'body-parser',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 warn package.json FullStack@1.0.0 No repository field.
+6 warn package.json FullStack@1.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'mogoose', null ]
+9 verbose cache add name=undefined spec="mogoose" args=["mogoose",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'mogoose',
+10 verbose parsed url   path: 'mogoose',
+10 verbose parsed url   href: 'mogoose' }
+11 verbose cache add [ 'body-parser', null ]
+12 verbose cache add name=undefined spec="body-parser" args=["body-parser",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'body-parser',
+13 verbose parsed url   path: 'body-parser',
+13 verbose parsed url   href: 'body-parser' }
+14 silly lockFile fcb29887-mogoose mogoose
+15 verbose lock mogoose C:\Users\DevinKyler\AppData\Roaming\npm-cache\fcb29887-mogoose.lock
+16 silly lockFile 14cf125c-body-parser body-parser
+17 verbose lock body-parser C:\Users\DevinKyler\AppData\Roaming\npm-cache\14cf125c-body-parser.lock
+18 silly lockFile fcb29887-mogoose mogoose
+19 silly lockFile fcb29887-mogoose mogoose
+20 silly lockFile 14cf125c-body-parser body-parser
+21 silly lockFile 14cf125c-body-parser body-parser
+22 verbose addNamed [ 'mogoose', '' ]
+23 verbose addNamed [ null, '*' ]
+24 silly lockFile 86f971ba-mogoose mogoose@
+25 verbose lock mogoose@ C:\Users\DevinKyler\AppData\Roaming\npm-cache\86f971ba-mogoose.lock
+26 verbose addNamed [ 'body-parser', '' ]
+27 verbose addNamed [ null, '*' ]
+28 silly lockFile 9f665704-body-parser body-parser@
+29 verbose lock body-parser@ C:\Users\DevinKyler\AppData\Roaming\npm-cache\9f665704-body-parser.lock
+30 silly addNameRange { name: 'mogoose', range: '*', hasData: false }
+31 silly addNameRange { name: 'body-parser', range: '*', hasData: false }
+32 verbose request where is /mogoose
+33 verbose request registry https://registry.npmjs.org/
+34 verbose request id 5a8da473aa3541e3
+35 verbose url raw /mogoose
+36 verbose url resolving [ 'https://registry.npmjs.org/', './mogoose' ]
+37 verbose url resolved https://registry.npmjs.org/mogoose
+38 verbose request where is https://registry.npmjs.org/mogoose
+39 info trying registry request attempt 1 at 13:23:54
+40 http GET https://registry.npmjs.org/mogoose
+41 verbose request where is /body-parser
+42 verbose request registry https://registry.npmjs.org/
+43 verbose url raw /body-parser
+44 verbose url resolving [ 'https://registry.npmjs.org/', './body-parser' ]
+45 verbose url resolved https://registry.npmjs.org/body-parser
+46 verbose request where is https://registry.npmjs.org/body-parser
+47 info trying registry request attempt 1 at 13:23:54
+48 verbose etag "F589Q9ZM1Z9GELNL7UZBOW6C8"
+49 http GET https://registry.npmjs.org/body-parser
+50 http 404 https://registry.npmjs.org/mogoose
+51 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+51 verbose headers   'content-type': 'application/json',
+51 verbose headers   'cache-control': 'max-age=0',
+51 verbose headers   'content-length': '51',
+51 verbose headers   'accept-ranges': 'bytes',
+51 verbose headers   date: 'Mon, 29 Jun 2015 17:23:55 GMT',
+51 verbose headers   via: '1.1 varnish',
+51 verbose headers   age: '0',
+51 verbose headers   connection: 'keep-alive',
+51 verbose headers   'x-served-by': 'cache-jfk1031-JFK',
+51 verbose headers   'x-cache': 'MISS',
+51 verbose headers   'x-cache-hits': '0',
+51 verbose headers   'x-timer': 'S1435598635.410531,VS0,VE86' }
+52 silly registry.get cb [ 404,
+52 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+52 silly registry.get     'content-type': 'application/json',
+52 silly registry.get     'cache-control': 'max-age=0',
+52 silly registry.get     'content-length': '51',
+52 silly registry.get     'accept-ranges': 'bytes',
+52 silly registry.get     date: 'Mon, 29 Jun 2015 17:23:55 GMT',
+52 silly registry.get     via: '1.1 varnish',
+52 silly registry.get     age: '0',
+52 silly registry.get     connection: 'keep-alive',
+52 silly registry.get     'x-served-by': 'cache-jfk1031-JFK',
+52 silly registry.get     'x-cache': 'MISS',
+52 silly registry.get     'x-cache-hits': '0',
+52 silly registry.get     'x-timer': 'S1435598635.410531,VS0,VE86' } ]
+53 silly lockFile 86f971ba-mogoose mogoose@
+54 silly lockFile 86f971ba-mogoose mogoose@
+55 http 200 https://registry.npmjs.org/body-parser
+56 silly registry.get cb [ 200,
+56 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+56 silly registry.get     etag: '"DIG0FUM8RATS6DOV5K7WN6EU9"',
+56 silly registry.get     'content-type': 'application/json',
+56 silly registry.get     'cache-control': 'max-age=60',
+56 silly registry.get     'content-length': '101704',
+56 silly registry.get     'accept-ranges': 'bytes',
+56 silly registry.get     date: 'Mon, 29 Jun 2015 17:23:55 GMT',
+56 silly registry.get     via: '1.1 varnish',
+56 silly registry.get     age: '44',
+56 silly registry.get     connection: 'keep-alive',
+56 silly registry.get     'x-served-by': 'cache-jfk1025-JFK',
+56 silly registry.get     'x-cache': 'HIT',
+56 silly registry.get     'x-cache-hits': '116',
+56 silly registry.get     'x-timer': 'S1435598635.417790,VS0,VE0',
+56 silly registry.get     vary: 'Accept' } ]
+57 silly addNameRange number 2 { name: 'body-parser', range: '*', hasData: true }
+58 silly addNameRange versions [ 'body-parser',
+58 silly addNameRange   [ '1.0.0',
+58 silly addNameRange     '1.0.1',
+58 silly addNameRange     '1.0.2',
+58 silly addNameRange     '1.1.0',
+58 silly addNameRange     '1.1.1',
+58 silly addNameRange     '1.1.2',
+58 silly addNameRange     '1.2.0',
+58 silly addNameRange     '1.2.1',
+58 silly addNameRange     '1.2.2',
+58 silly addNameRange     '1.3.0',
+58 silly addNameRange     '1.3.1',
+58 silly addNameRange     '1.4.0',
+58 silly addNameRange     '1.4.1',
+58 silly addNameRange     '1.4.2',
+58 silly addNameRange     '1.4.3',
+58 silly addNameRange     '1.5.0',
+58 silly addNameRange     '1.5.1',
+58 silly addNameRange     '1.5.2',
+58 silly addNameRange     '1.6.0',
+58 silly addNameRange     '1.6.1',
+58 silly addNameRange     '1.6.2',
+58 silly addNameRange     '1.6.3',
+58 silly addNameRange     '1.6.4',
+58 silly addNameRange     '1.6.5',
+58 silly addNameRange     '1.6.6',
+58 silly addNameRange     '1.6.7',
+58 silly addNameRange     '1.7.0',
+58 silly addNameRange     '1.8.0',
+58 silly addNameRange     '1.8.1',
+58 silly addNameRange     '1.8.2',
+58 silly addNameRange     '1.8.3',
+58 silly addNameRange     '1.8.4',
+58 silly addNameRange     '1.9.0',
+58 silly addNameRange     '1.9.1',
+58 silly addNameRange     '1.9.2',
+58 silly addNameRange     '1.9.3',
+58 silly addNameRange     '1.10.0',
+58 silly addNameRange     '1.10.1',
+58 silly addNameRange     '1.10.2',
+58 silly addNameRange     '1.11.0',
+58 silly addNameRange     '1.12.0',
+58 silly addNameRange     '1.12.1',
+58 silly addNameRange     '1.12.2',
+58 silly addNameRange     '1.12.3',
+58 silly addNameRange     '1.12.4',
+58 silly addNameRange     '1.13.0',
+58 silly addNameRange     '1.13.1' ] ]
+59 verbose addNamed [ 'body-parser', '1.13.1' ]
+60 verbose addNamed [ '1.13.1', '1.13.1' ]
+61 silly lockFile 89f5b02f-body-parser-1-13-1 body-parser@1.13.1
+62 verbose lock body-parser@1.13.1 C:\Users\DevinKyler\AppData\Roaming\npm-cache\89f5b02f-body-parser-1-13-1.lock
+63 silly lockFile 89f5b02f-body-parser-1-13-1 body-parser@1.13.1
+64 silly lockFile 89f5b02f-body-parser-1-13-1 body-parser@1.13.1
+65 silly lockFile 9f665704-body-parser body-parser@
+66 silly lockFile 9f665704-body-parser body-parser@
+67 error 404 404 Not Found: mogoose
+67 error 404
+67 error 404 'mogoose' is not in the npm registry.
+67 error 404 You should bug the author to publish it
+67 error 404 It was specified as a dependency of 'FullStack'
+67 error 404
+67 error 404 Note that you can also install from a
+67 error 404 tarball, folder, or http url, or git url.
+68 error System Windows_NT 6.2.9200
+69 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "mogoose" "body-parser" "--save"
+70 error cwd C:\Users\DevinKyler\Desktop\Projects\FullStack
+71 error node -v v0.10.33
+72 error npm -v 1.4.28
+73 error code E404
+74 verbose exit [ 1, true ]
